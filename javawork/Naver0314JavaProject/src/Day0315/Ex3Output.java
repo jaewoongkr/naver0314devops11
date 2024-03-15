@@ -17,7 +17,7 @@ public class Ex3Output {
 		System.out.print("혈액형 : "+blood+"형");//print는 개행을 안함
 		System.out.println("\t평균:"+avg);
 		System.out.println("====================================");
-		//printf 를 이용해서 출력해보자
+		//printf 를 이용해서 출력해보자(JDK5부터)
 		//변환기호를 이용해서 출력한다
 		//정수:%d,실수:%f,문자:%c,문자열:%s
 		System.out.printf("**%40s**\n\n",msg);//40칸의 우측기준으로 출력
@@ -32,6 +32,10 @@ public class Ex3Output {
 		System.out.printf("평균:%10.2f점\n",avg); //%10.2 : 전체자리수 10자리(남을경우 공백처리), 소숫점이하 자리수 2자리
 		System.out.printf("평균:%-10.2f점\n",avg); //%-10.2 : 전체자리수 10자리(왼쪽으로 출력, 남을경우 공백처리), 소숫점이하 자리수 2자리
 
+		
+		
+		
+		
 	}
 
 }
