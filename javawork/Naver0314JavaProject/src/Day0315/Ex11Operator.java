@@ -26,8 +26,7 @@ public class Ex11Operator {
 		su2=sc.nextInt();
 		su3=sc.nextInt();
 		
-		max=su1>su2&&su1>su3?su1:
-			su2>su1&&su2>su3?su2:su3;
+		max=su1>su2&&su1>su3?su1:su2>su1&&su2>su3?su2:su3;
 		
 		System.out.println("max="+max);
 		

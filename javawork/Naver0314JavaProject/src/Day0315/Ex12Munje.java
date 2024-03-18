@@ -16,12 +16,11 @@ public class Ex12Munje {
 		 */
 
 		Scanner sc=new Scanner(System.in);
-		
-		System.out.println("점수를 입력하세요");
 		int score;
 		String msg;
-	
+		System.out.println("점수를 입력하세요");
 		score=sc.nextInt();
+	
 		
 		msg=score>=90?"참 잘했어요!!": score>=80?"수고했어요!":
 			score>=70?"조금 더 노력하세요!":"재시험입니다!";
@@ -29,6 +28,19 @@ public class Ex12Munje {
 	
 	
 		System.out.println(score+"=>"+msg);
+		
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
