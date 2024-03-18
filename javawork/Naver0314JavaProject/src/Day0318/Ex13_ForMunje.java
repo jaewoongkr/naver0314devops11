@@ -19,17 +19,17 @@ public class Ex13_ForMunje {
 		 * 3의 4승은 81입니다.
 		 */
 		
-		Scanner sc=new Scanner(System.in);
-		int x, y, sum =1;
-		System.out.println("x,y 두 숫자를 입력후 x의y승값을 구하시오");
-		x=sc.nextInt();
-		y=sc.nextInt();
 		
+		Scanner sc = new Scanner(System.in);
+		int x,y,sum=1;
+		System.out.println("값을 구하시오");
+		x= sc.nextInt();
+		y= sc.nextInt();
 		
-		for(int i=1;i<=y;i++)
-		{
-			sum*=x;}
-			System.out.printf("%d 의 %d승은 %d입니다", x,y,sum);
+		for (int i=1;i<=y;i++)
+		{sum*=x;}
+		System.out.printf("%d 의 %d승은 %d입니다", x,y,sum);
+		
 			
 		}
 		
