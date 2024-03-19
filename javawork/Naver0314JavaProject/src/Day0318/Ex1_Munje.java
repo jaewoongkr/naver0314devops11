@@ -27,6 +27,8 @@ public class Ex1_Munje {
 	}
 	msg= score>=90 ? "A" : score >= 80 ? "B" : score >= 70 ? "C" : score >= 60 ? "D" : "F";
 	System.out.println("점수 "+ score + "점은 "+msg + "학점입니다.");	
+	
+	
 
 	}
 

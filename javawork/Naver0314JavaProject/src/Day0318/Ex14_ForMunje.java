@@ -8,7 +8,7 @@ public class Ex14_ForMunje {
 		// TODO Auto-generated method stub
 		
 		/*
-		 * 5개의 점수를 입력하면 갯수(count)와 합계(sum) 출력하기
+		 * 5개의 점수(score)를 입력하면 갯수(count)와 합계(sum) 출력하기
 		 * (단, 1~100이 아닐경우는 갯수에서 제외하고 합계에서도 제외하기 -continue 사용)
 		 * 
 		 * (예)
@@ -24,18 +24,19 @@ public class Ex14_ForMunje {
 		 */
 		
 		Scanner sc = new Scanner(System.in);
-		int count,sum=0;
-		System.out.println("점수는?");
-		count= sc.nextInt();
+		int count= 0,sum =0,score;
 		
-		for (int i=0;i<5;i++) {
-			System.out.print("점수는?");
-		    count= sc.nextInt();
-			sum += count;
-		  if (i <1 || i >100 )
-			  continue;
+		for (int i=1;i<=5;i++) {
+			System.out.println("점수는?"+ i);
+		    score= sc.nextInt();
+		    if(score <1 || score>100)
+		    	continue;
+		    
+		    count++;
+			sum += score;
+			
 		}
-		  System.out.println("입력한 점수 갯수: " + count +"총합계 :"+ sum);
+		  System.out.println("입력한 점수 갯수: " + count +" 총합계 :"+ sum);
 		
 	}
 }

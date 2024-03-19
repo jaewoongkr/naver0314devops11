@@ -27,8 +27,9 @@ public class Ex13_ForMunje {
 		y= sc.nextInt();
 		
 		for (int i=1;i<=y;i++)
-		{sum*=x;}
-		System.out.printf("%d 의 %d승은 %d입니다", x,y,sum);
+		{sum*=x;
+		
+		System.out.printf("%d 의 %d승은 %d입니다", x,y,sum);}
 		
 			
 		}
