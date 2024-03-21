@@ -41,6 +41,8 @@ public class Ex11_StringMunje {
 		System.out.println("소문자"+ x);
 		System.out.println("대문자"+ y);
 		System.out.println("숫자"+ z);
+		
+		
 
 	}
 

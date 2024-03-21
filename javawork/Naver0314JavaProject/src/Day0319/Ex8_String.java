@@ -75,7 +75,7 @@ public class Ex8_String {
 		}
 		
 		String msg= "  hello  ";
-		System.out.println(msg.length());//11글자
+		System.out.println(msg.length());//9글자
 		System.out.println(msg.trim().length());//양쪽 공백 제거후 5글자
 		
 		//valueOf: 어떤 타입의 데이타든지 모두 string 으로 변환해준다

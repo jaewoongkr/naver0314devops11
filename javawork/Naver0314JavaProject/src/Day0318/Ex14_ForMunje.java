@@ -27,7 +27,7 @@ public class Ex14_ForMunje {
 		int count= 0,sum =0,score;
 		
 		for (int i=1;i<=5;i++) {
-			System.out.println("점수는?"+ i);
+			System.out.println("점수는?");
 		    score= sc.nextInt();
 		    if(score <1 || score>100)
 		    	continue;
@@ -38,6 +38,9 @@ public class Ex14_ForMunje {
 		}
 		  System.out.println("입력한 점수 갯수: " + count +" 총합계 :"+ sum);
 		
+	
+		  
+		  
 	}
 }
 
